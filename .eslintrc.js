@@ -18,6 +18,7 @@ module.exports = {
   },
   plugins: ['react', '@typescript-eslint', 'jest-dom'],
   rules: {
+    'import/no-extraneous-dependencies': 'error',
     'react/no-unknown-property': ['error', { 'ignore': ['css'] }],
     'react/jsx-filename-extension': [1, { extensions: ['.ts', '.tsx'] }],
     'no-shadow': 'off',
