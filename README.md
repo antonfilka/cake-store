@@ -1,8 +1,8 @@
 # Code Guide
 
-## Using YARN commands only
+## Using NPM commands only
 
-### `yarn start`
+### `npm start`
 
 .
 .
@@ -19,7 +19,7 @@
 - for forms using library "React hook form"
 - for api using library "RTK Query"
 - for validation using library "yup"
-- for components markup use Material-UI
+- for components markup use styled components
 - group and sort css properties in the following order
   - Positioning
   - Box model
