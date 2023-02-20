@@ -1,3 +1,13 @@
+import { useGetUserDataQuery } from 'api/agents';
+
 export function HomePage() {
-  return <div>Hello tortik</div>;
+  const { data } = useGetUserDataQuery({});
+
+  return (
+    <div>
+      Hello tortik
+      <br />
+      <span>{JSON.stringify(data)}</span>f{' '}
+    </div>
+  );
 }
