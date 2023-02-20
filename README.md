@@ -1,12 +1,9 @@
 # Code Guide
 
-## Using NPM commands only
+## Using NPM only
 
 ### `npm start`
 
-.
-.
-.
 
 ## Guidelines
 
